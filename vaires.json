@@ -1,5 +1,5 @@
 {
-  "name": "my-awesome-agent-3",
+  "name": "my-awesome-agent",
   "description": "This is a detailed description of my awesome agent. It can perform various tasks.",
   "kind": "agent",
   "version": "1.0.0",
