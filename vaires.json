@@ -1,9 +1,9 @@
 {
-  "name": "my-awesome-agent-5",
+  "name": "my-awesome-agent",
   "description": "This is a detailed description of my awesome agent. It can perform various tasks.",
   "kind": "agent",
   "version": "1.0.0",
-  "tags": ["agent", "experimental", "chatbot"],
+  "tags": ["agent", "experimental", "chatbot", "coding"],
   "entrypoint": "main.rs",
   "models": [
     {
