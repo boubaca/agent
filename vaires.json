@@ -1,39 +1,13 @@
 {
-  "name": "my-awesome-agent-intel",
-  "description": "This is a detailed description of my awesome agent. It can perform various tasks.",
-  "kind": "agent",
+  "name": "Professional Email Crafter test 2",
+  "kind": "prompt",
   "version": "1.0.0",
-  "tags": ["agent", "experimental", "chatbot", "coding", "chat", "generator"],
-  "entrypoint": "main.rs",
-  "models": [
-    {
-      "ref": "base-model-name@sha256:f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2",
-      "usage": "base"
-    },
-    {
-      "ref": "embedding-model-name@sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "usage": "embedding"
-    }
-  ],
-  "prompts": [
-    {
-      "path": "prompts/system_prompt.txt",
-      "scope": "system"
-    },
-    {
-      "path": "prompts/user_prompt.txt",
-      "scope": "user"
-    }
-  ],
-  "resources": {
-    "cpu": "1000m",
-    "memory": "2Gi",
-    "gpu": "1"
-  },
+  "author": "Vaires Corp.",
+  "license": "MIT",
+  "description": "A prompt that generates professional marketing emails.",
+  "tags": ["email", "marketing", "professional"],
+  "entrypoint": "email-crafter.prompt.json",
   "pricePlan": {
-    "type": "subscription",
-    "currency": "USD",
-    "amount": 25,
-    "interval": "month"
+    "type": "free"
   }
 }
